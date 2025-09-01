@@ -1,0 +1,95 @@
+.tabs {
+	
+	
+	position:relative;
+	display:block;
+}
+
+.tabs ul.nav {
+	list-style-image:none;
+	margin:0px 0 0px 0px;
+	display:block;
+	overflow:hidden;
+	background:url(../images/texture1.png) no-repeat 0 0;
+	width:230px;
+	z-index:100;
+}
+.tabs ul.nav li {
+	float:left;
+   
+	display:inline-block;
+	text-align:center;
+
+	
+}
+.tabs ul.nav li a {
+	font-family: 'Lora', serif;
+	font-size:14px;
+	color:#2e2e2e;
+	line-height:17px;
+	font-weight:normal;
+	text-transform:uppercase;
+	display:block;
+	padding:12px 42px 12px 20px;
+	font-weight:400;
+}
+.tabs ul.nav li.selected {
+		background:#000;
+		
+
+}
+.tabs ul.nav li.selected a {
+	color:#fff;	
+
+}
+.tabs ul.nav li:hover {background:#000;
+
+}
+.tabs ul.nav li:hover a {
+	color:#fff;	
+	
+
+}
+.aligncenter {
+	text-align:center !important;
+}
+.tab-content ul.list-1 {
+	margin:10px 0 0 21px;
+}
+
+#page4 .tabs ul.nav {
+	list-style-image:none;
+	margin:0px 0 0px 0px;
+	display:block;
+	overflow:hidden;
+	background:url(../images/texture1.png) no-repeat 0 0;
+	width:313px;
+	z-index:100;
+}
+#page4 .tabs ul.nav li a {
+	font-family: 'Lora', serif;
+	font-size:14px;
+	color:#2e2e2e;
+	line-height:17px;
+	font-weight:normal;
+	text-transform:uppercase;
+	display:block;
+	padding:12px 15px;
+	font-weight:400;
+}
+#page4 .tabs ul.nav li.selected {
+		background:#000;
+		
+
+}
+
+#page4 .tabs ul.nav li:hover a {
+	color:#fff;	}
+	
+#page4 .tabs ul.nav li.selected a {
+	color:#fff;	}
+	
+	#page4 .tabs ul.nav li {
+	float:left;
+	border-right:#FFF 1px solid;
+	}

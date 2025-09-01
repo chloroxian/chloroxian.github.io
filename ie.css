@@ -1,0 +1,15 @@
+
+carousel, 
+.a1
+{behavior: url(js/PIE.htc); position:relative;}
+
+
+
+#icons .img_act{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);}
+#icons a:hover .img_act {filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);}
+
+#toTopHover{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);}
+#toTop{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);}
+
+.a3 img:hover{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);}
+
